@@ -1,0 +1,18 @@
+Column_Name,Data_Type,Description,Business_Relevance
+Order_ID,Object,Unique or repeated identifier assigned to an order,Order tracking
+Order_Date,Date,Date on which the order was placed,Time-based sales analysis
+Customer_ID,Object,Identifier assigned to a customer,Customer identification
+Customer_Name,Object,Name or label associated with a customer,Customer analysis
+Age,Float,Age of the customer,Customer demographic analysis
+Gender,Object,Gender category of the customer,Demographic segmentation
+City,Object,City associated with the customer,Geographical sales analysis
+Product,Object,Name of the purchased product,Product performance analysis
+Category,Object,Category of the purchased product,Category-wise sales analysis
+Quantity,Integer,Number of units purchased,Sales volume analysis
+Unit_Price,Float,Price per unit of the product,Product pricing analysis
+Total_Sales,Float,Total sales amount for the transaction,Revenue analysis
+Order_Year,Integer,Year extracted from Order_Date,Year-wise sales analysis
+Order_Month,Integer,Month number extracted from Order_Date,Monthly sales analysis
+Order_Month_Name,Object,Name of the month extracted from Order_Date,Month-wise sales reporting
+Order_Quarter,Integer,Quarter extracted from Order_Date,Quarterly sales analysis
+Age_Group,Category,Customer age grouped into predefined ranges,Age-based customer segmentation

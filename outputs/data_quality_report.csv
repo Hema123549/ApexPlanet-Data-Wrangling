@@ -1,0 +1,12 @@
+Validation_Check,Status,Details
+Row Count,PASS,Total rows: 1000
+Column Count,PASS,Total columns: 17
+Required Columns,PASS,Missing columns: []
+Missing Values,PASS,Total missing values: 0
+Duplicate Records,PASS,Duplicate rows: 0
+Date Validation,PASS,Invalid dates: 0
+Age Range Validation,PASS,Invalid age records: 0
+Sales Calculation,PASS,Sales mismatches: 0
+Feature Engineering,PASS,"Year, month and quarter values checked."
+Age Group Validation,PASS,Missing age groups: 0
+Repeated Order ID Investigation,INFO,Repeated Order IDs: 1. Records are preserved.
